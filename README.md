@@ -1,8 +1,10 @@
-# F3RM Website
+# Estimate, Extrapolate, Situate Website
 
-Project website for the paper "Distilled Feature Fields Enable Few-Shot Language-Guided Manipulation".
+Project website for the paper "Practice Makes Perfect: Planning to Learn Skill Parameter Policies".
 
-**Deployed at:** https://f3rm.csail.mit.edu/
+## 🙏 Website Template
+
+This website was adapted with permission from the [f3rm project](https://github.com/f3rm/f3rm.github.io).
 
 ## 🚀 Quick start
 
@@ -29,6 +31,7 @@ To deploy the website to GitHub pages:
 **Note:** you will need to change your Git remote in `package.json` to point to your own repository if you are
 using this template for your own website.
 
-## 📃 License
+
+## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

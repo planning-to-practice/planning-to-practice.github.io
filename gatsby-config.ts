@@ -2,8 +2,8 @@ import type {GatsbyConfig} from "gatsby";
 
 const config: GatsbyConfig = {
     siteMetadata: {
-        title: `Feature Fields Manipulation`,
-        siteUrl: `https://f3rm.csail.mit.edu`
+        title: `Planning to Practice for Robots`,
+        siteUrl: `https://planning-to-practice.github.io/`
     },
     pathPrefix: "/",
     // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
@@ -19,7 +19,7 @@ const config: GatsbyConfig = {
             options: {
                 trackingIds: [
                     // Change this to your own Google Analytics Tracking ID
-                    "G-T7NKWVQH1D",
+                    "G-QZXEY0ZRER",
                 ],
             }
         },

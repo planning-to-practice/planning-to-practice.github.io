@@ -1,9 +1,9 @@
 {
-  "name": "feature-fields-manipulation",
+  "name": "planning-to-learn",
   "version": "1.0.0",
   "private": true,
-  "description": "feature-fields-manipulation",
-  "author": "Ge Yang <ge.ike.yang@gmail.com>, William Shen <willshen@mit.edu>",
+  "description": "planning-to-learn",
+  "author": "Nishanth Kumar <njk@csail.mit.edu>, Tom Silver <tslvr@csail.mit.edu>",
   "keywords": [
     "gatsby"
   ],
@@ -14,8 +14,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit",
-    "deploy-ssh": "rm -r public & yarn run build && gh-pages -d public -b gh-pages -r git@github.com:f3rm/f3rm.github.io.git",
-    "deploy": "rm -r public & yarn run build && gh-pages -d public -b gh-pages -r https://github.com/f3rm/f3rm.github.io.git",
+    "deploy-ssh": "rm -r public & yarn run build && gh-pages -d public -b gh-pages -r git@github.com:planning-to-practice/planning-to-practice.github.io.git",
+    "deploy": "rm -r public & yarn run build && gh-pages -d public -b gh-pages -r https://github.com/planning-to-practice/planning-to-practice.github.io.git",
     "staging": "gatsby build --prefix-paths && gh-pages -d public -b gh-pages"
   },
   "dependencies": {
@@ -27,20 +27,20 @@
     "flowbite": "^1.7.0",
     "flowbite-react": "^0.4.7",
     "flowbite-typography": "^1.0.3",
-    "gatsby": "^5.10.0",
-    "gatsby-plugin-google-gtag": "^5.10.0",
-    "gatsby-plugin-manifest": "^5.10.0",
-    "gatsby-plugin-mdx": "^5.10.0",
-    "gatsby-plugin-postcss": "^6.10.0",
-    "gatsby-plugin-sitemap": "^6.10.0",
-    "gatsby-source-filesystem": "^5.10.0",
+    "gatsby": "^5.13.3",
+    "gatsby-plugin-google-gtag": "^5.13.1",
+    "gatsby-plugin-manifest": "^5.13.1",
+    "gatsby-plugin-mdx": "^5.13.1",
+    "gatsby-plugin-postcss": "^6.13.1",
+    "gatsby-plugin-sitemap": "^6.13.1",
+    "gatsby-source-filesystem": "^5.13.1",
     "postcss": "^8.4.24",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
     "react-multi-carousel": "^2.8.4",
     "tailwindcss": "^3.3.2",
-    "yarn": "^1.22.19"
+    "yarn": "^1.22.21"
   },
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
