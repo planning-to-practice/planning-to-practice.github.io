@@ -26,7 +26,7 @@ const config: GatsbyConfig = {
         {
             resolve: 'gatsby-plugin-manifest',
             options: {
-                "icon": "src/images/ff_icon.png"
+                "icon": "src/images/ptp_icon.png"
             }
         }, "gatsby-plugin-mdx", {
             resolve: 'gatsby-source-filesystem',
