@@ -198,7 +198,7 @@ const IndexPage: React.FC<PageProps> = () => {
                         <Author website={"https://web.mit.edu/tslvr/www/"} firstAuthor={true} affiliations={"1,2"}>Tom Silver</Author>
                         <Author website={"https://wmcclinton.github.io/"} affiliations={"1,2"}>Willie McClinton</Author>
                         <Author website={"https://lfzhao.com/"} affiliations={"1,3"}>Linfeng Zhao</Author>
-                        <Author website={"https://www.linkedin.com/in/stephen-proulx/?trk=public_profile_samename-profile"} affiliations={"3"}>Stephen Proulx</Author>
+                        <Author website={"https://www.linkedin.com/in/stephen-proulx/?trk=public_profile_samename-profile"} affiliations={"1"}>Stephen Proulx</Author>
                         <Author website={"https://people.csail.mit.edu/tlp/"} affiliations={"2"}>Tomás Lozano-Pérez</Author>
                         <Author website={"https://people.csail.mit.edu/lpk/"} affiliations={"2"}>Leslie Kaelbling</Author>
                         <Author website={"https://www.linkedin.com/in/jennifer-barry-742a0799/"} affiliations={"1"} lastAuthor={true}>Jennifer Barry</Author>
