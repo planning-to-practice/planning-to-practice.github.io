@@ -25,7 +25,6 @@ import ring_on_table from "./images/ring_on_table.png"
 import ball_stuck from "./images/ball_stuck.png"
 import brush_grasp_fail from "./images/brush_grasp_fail.gif"
 import tray_grasp_fail from "./images/tray_grasp_fail.gif"
-import paper_pdf from "./images/planning-to-practice-paper.pdf"
 
 
 const Title: React.FC = ({children}) => {
@@ -186,7 +185,7 @@ const IndexPage: React.FC<PageProps> = () => {
                         <span className="font-normal text-stone-800">Planning to Learn Skill Parameter Policies</span>
                     </Title>
 
-                    <Venue website={"https://arxiv.org/"}>
+                    <Venue website={"https://arxiv.org/abs/2402.15025"}>
                         <span className="font-normal text-stone-600 hover:text-transparent hover:bg-clip-text
                         hover:bg-gradient-to-r hover:from-blue-500 hover:to-green-400
                         hover:transition-all">arXiv, 2024</span>
@@ -216,7 +215,7 @@ const IndexPage: React.FC<PageProps> = () => {
 
                     {/* Action Links */}
                     <p className="flex flex-wrap justify-center">
-                        <ActionLink url={paper_pdf} icon={<FaFilePdf/>}>Paper</ActionLink>
+                        <ActionLink url={"https://arxiv.org/pdf/2402.15025.pdf"} icon={<FaFilePdf/>}>Paper</ActionLink>
                         <ActionLink url={"https://www.youtube.com/watch?v=123DXatw1V8"} icon={<FaVideo/>}>Video</ActionLink>
                         <ActionLink url={"https://github.com/bdaiinstitute/predicators/releases/tag/planning-to-practice-ees"} icon={<AiFillGithub/>}>Code</ActionLink>
                     </p>
@@ -447,12 +446,12 @@ const IndexPage: React.FC<PageProps> = () => {
                         <pre className="bg-slate-100">
                             <code id="citation-bib" className="font-normal text-slate-600">{
                                 `@misc{kumar2024practice,
-    title={Practice Makes Perfect: Planning to Learn Skill Parameter Policies},
-    author={Kumar, Nishanth and Silver, Tom and McClinton, Willie and Zhao, Linfeng and Lozano-P{\'e}rez, Tom{\'a}s and Kaelbling, Leslie Pack and Barry, Jennifer},
-    archivePrefix={arXiv},
-    primaryClass={cs.AI}
-    year={2024}
-}`}
+title={Practice Makes Perfect: Planning to Learn Skill Parameter Policies}, 
+author={Nishanth Kumar and Tom Silver and Willie McClinton and Linfeng Zhao and Stephen Proulx and Tomás Lozano-Pérez and Leslie Pack Kaelbling and Jennifer Barry},
+year={2024},
+eprint={2402.15025},
+archivePrefix={arXiv},
+primaryClass={cs.RO}}`}
                             </code>
                         </pre>
                         <div className="absolute top-0 right-0">
