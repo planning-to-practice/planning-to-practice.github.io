@@ -188,7 +188,7 @@ const IndexPage: React.FC<PageProps> = () => {
                     <Venue website={"https://arxiv.org/abs/2402.15025"}>
                         <span className="font-normal text-stone-600 hover:text-transparent hover:bg-clip-text
                         hover:bg-gradient-to-r hover:from-blue-500 hover:to-green-400
-                        hover:transition-all">Robotics: Science and Systems (RSS) 2024</span>
+                        hover:transition-all">RSS 2024</span>
                     </Venue>
 
                     {/* Authors */}
