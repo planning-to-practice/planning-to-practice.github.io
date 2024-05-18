@@ -450,7 +450,7 @@ title={Practice Makes Perfect: Planning to Learn Skill Parameter Policies},
 author={Nishanth Kumar and Tom Silver and Willie McClinton and Linfeng Zhao and Stephen Proulx and Tomás Lozano-Pérez and Leslie Pack Kaelbling and Jennifer Barry},
 year={2024},
 booktitle={Robotics: Science and Systems (RSS)}
-`}
+                                }`}
                             </code>
                         </pre>
                         <div className="absolute top-0 right-0">
