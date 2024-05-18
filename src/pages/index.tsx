@@ -188,7 +188,7 @@ const IndexPage: React.FC<PageProps> = () => {
                     <Venue website={"https://arxiv.org/abs/2402.15025"}>
                         <span className="font-normal text-stone-600 hover:text-transparent hover:bg-clip-text
                         hover:bg-gradient-to-r hover:from-blue-500 hover:to-green-400
-                        hover:transition-all">arXiv, 2024</span>
+                        hover:transition-all">Robotics: Science and Systems (RSS) 2024</span>
                     </Venue>
 
                     {/* Authors */}
@@ -445,13 +445,12 @@ const IndexPage: React.FC<PageProps> = () => {
                     <div className="relative overflow-auto">
                         <pre className="bg-slate-100">
                             <code id="citation-bib" className="font-normal text-slate-600">{
-                                `@misc{kumar2024practice,
+                                `@inproceedings{kumar2024practice,
 title={Practice Makes Perfect: Planning to Learn Skill Parameter Policies}, 
 author={Nishanth Kumar and Tom Silver and Willie McClinton and Linfeng Zhao and Stephen Proulx and Tomás Lozano-Pérez and Leslie Pack Kaelbling and Jennifer Barry},
 year={2024},
-eprint={2402.15025},
-archivePrefix={arXiv},
-primaryClass={cs.RO}}`}
+booktitle={Robotics: Science and Systems (RSS)}
+`}
                             </code>
                         </pre>
                         <div className="absolute top-0 right-0">
